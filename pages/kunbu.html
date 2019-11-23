@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="../css/style.css" rel="stylesheet">
+  <style type="text/css">
+  /* Necessary for full page carousel*/
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+
+  /* Carousel*/
+  .carousel,
+  .carousel-item,
+  .carousel-item.active {
+    height: 100%;
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .carousel-inner &gt;
+  .item &gt;
+
+  img {
+    height: 360px;
+    object-fit: contain;
+  }
+
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #1C2331 !important;
+    }
+  }
+
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+            <strong></strong>
+            </a>
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home
+                     <span class="sr-only">(current)</span>
+                     </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About MDB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free tutorials</a>
+          </li>
+        </ul>
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/ismail.shuaau.39" class="nav-link" target="_blank">
+                     <i class="fab fa-facebook-f"></i>
+                     </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/ismail_shuaau" class="nav-link" target="_blank">
+                     <i class="fab fa-twitter"></i>
+                     </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/ismailshuaau/" class="nav-link" target="_blank">
+                     <i class="fab fa-instagram"></i>
+                     </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/ismailshuaau" class="nav-link waves-light"
+                        target="_blank"><i class="fab fa-github mr-2"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <!--Main layout-->
+  <main class="mt-5 pt-5">
+    <!-- Card -->
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div class="container d-flex justify-content-center">
+          <div class="w-100 text-center">
+            <div class="">
+              <!-- Card -->
+              <div class="card">
+                <!-- Card image -->
+                <div class="view overlay">
+                  <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                  </a>
+                  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                    </ol>
+                    <!--/.Indicators-->
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <!--First slide-->
+                      <div class="carousel-item active">
+                        <div style="height: 500px;">
+                          <img class="d-block w-100" src="../img/Kunbu/home.jpeg" alt="First slide">
+                          </div>
+                        </div>
+                        <!--/First slide-->
+                        <!--Second slide-->
+                        <div class="carousel-item">
+                          <div style="height: 500px;">
+                            <img class="d-block w-100" src="../img/Kunbu/search.jpeg"
+                                 alt="Second slide">
+                             </div>
+                          </div>
+                          <!--/Second slide-->
+                          <!--Third slide-->
+                          <div class="carousel-item">
+                            <div style="height: 500px;">
+                              <img class="d-block w-100" src="../img/Kunbu/available.jpeg"
+                                  alt="Third slide">
+                                </div>
+                            </div>
+                            <!--/Third slide-->
+                          </div>
+                          <!--/.Slides-->
+                          <!--Controls-->
+                          <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                       <span class="sr-only">Previous</span>
+                                       </a>
+                          <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                       <span class="sr-only">Next</span>
+                                       </a>
+                          <!--/.Controls-->
+                        </div>
+                        <!--/.Carousel Wrapper-->
+                      </div>
+                      <!-- Card content -->
+                      <div class="card-body">
+                        <!-- Title -->
+                        <h4 class="card-title">Kunbu</h4>
+                        <!-- Text -->
+                        <p class="card-text">Kunbu is a sea transfer management solution. You can travel anywhere in Maldives with Kunbu. Contact us for more information.</p>
+                        <!-- Button -->
+                        <a href="https://github.com/ismailshuaau/kunbu" target="_blank" class="btn btn-grey"><i class="fab fa-github-alt"></i> repo</a>
+                        <a href="https://kunbu.co" target="_blank" class="btn btn-primary">kunbu.com</a>
+                        <a href="https://kunbutracking.com" target="_blank" class="btn btn-secondary">kunbutracking.com</a>
+                      </div>
+                    </div>
+                    <!-- Card -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <!-- Where? -->
+              <div class="row mt-5">
+                <div>
+                  <h2 class="display-6">Where?</h2>
+                  <p class="lead">24-hour Hackathon held over the weekend at Hotel Jen, Maldives</p>
+                  <a href="https://www.facebook.com/NiruAccelerator/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                  <a href="https://www.youtube.com/watch?v=oT6VWQuRqHU" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+              </div>
+              <!-- Why? -->
+              <div class="row mt-5">
+                <div>
+                  <h2 class="display-6">Why?</h2>
+                  <p class="lead">Around 481000 accidents in the US only are caused by distracted drivers. We want drivers to be more aware of their environment by hiding non-essentiel informations on the car control panel.</p>
+                </div>
+              </div>
+              <!-- How -->
+              <div class="row mt-5">
+                <div>
+                  <h2 class="display-6">How does it work?</h2>
+                  <p class="lead">Shows availability of vessels and lets users make booking</p>
+                </div>
+              </div>
+              <!-- Contributions -->
+              <div class="row mt-5">
+                <div>
+                  <h2 class="display-6">My Contribution</h2>
+                  <p class="lead">As a Former Co-Founder, I initiated this startup and I have also worked on the back-end </p>
+                </div>
+              </div>
+            </div>
+            <!-- Team -->
+            <div class="mt-5">
+              <h2 class="display-6">Team</h2>
+              <div>
+                    
+                    <!-- Grid row -->
+                    <div class="row">
+                    
+                      <!-- Grid column -->
+                      <div class="col-md-12 mb-4">
+                    
+                        <!--Card-->
+                        <div class="card">
+                    
+                          <!--Card image-->
+                          <div class="view">
+                            <img src="../img/Kunbu/team.jpeg" class="card-img-top" alt="photo">
+                            <a href="#">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                    
+                          <!--Card content-->
+                          <div class="card-body text-center">
+                            <!--Title-->
+                            
+                            <!--Text-->
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h3>Rimaah Ahmed</h3>
+                                    <p>Graphic Designer</p>
+                                    <a href="https://www.facebook.com/haker.h3x" class="nav-link waves-light"><i class="fab fa-facebook mr-2"></i></a>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Ahmed Mahfooz</h3>
+                                    <p>Co-Founder / Developer</p>
+                                    <a href="https://github.com/VoidBinary" class="nav-link waves-light"
+                                    target="_blank"> <i class="fab fa-github mr-2"></i> </a>
+                                    <a href="https://www.facebook.com/haker.h3x" class="nav-link waves-light"><i class="fab fa-facebook mr-2"></i></a>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Ismail Shuaau</h3>
+                                    <p>Co-Founder / Developer</p>
+                                </div>
+                            </div>
+                          </div>
+                    
+                        </div>
+                        <!--/.Card-->
+                    
+                      </div>
+                      <!-- Grid column -->
+
+                    
+                    </div>
+                    <!-- Grid row -->
+              </div>
+
+            </div>
+          </div>
+  </main>
+  <!--Main layout-->
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://www.ismailshuaau.com" target="_blank"> ismailshuaaau.com </a>
+    </div>
+    <!--/.Copyright-->
+  </footer>
+  <!--/.Footer-->
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+  // Animations initialization
+  new WOW().init();
+
+  </script>
+</body>
+
+</html>
